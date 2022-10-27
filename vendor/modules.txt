@@ -1,9 +1,0 @@
-# github.com/lib/pq v1.10.7
-## explicit; go 1.13
-github.com/lib/pq
-github.com/lib/pq/oid
-github.com/lib/pq/scram
-# github.com/murilorscampos/lojaweb/db v1.2.3
-## explicit
-# github.com/murilorscampos/lojaweb/models v1.2.3
-## explicit
