@@ -1,6 +1,6 @@
 package models
 
-import "github.com/murilorscampos/lojaweb/db"
+import "go.mod/db"
 
 type Produto struct {
 	Id         int
@@ -12,7 +12,7 @@ type Produto struct {
 
 func BuscaTodosOsProdutos() []Produto {
 
-	db := db.ConectaComBandoDeDados()
+	db := db.ConectaComBancoDeDados()
 
 	selectDeTodosOsProdutos, err := db.Query("select * from produtos")
 
